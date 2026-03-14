@@ -21,7 +21,7 @@ _G.FishItConfig = _G.FishItConfig or {
     },
     ["Auto Trade"] = {
         ["Enabled"] = true,
-        ["Whitelist Username"] = {"workerdivine01","workerdivine02","workerdivine03","workerdivine04","workerdivine05","pekerjadvn01","pekerjadvn02","pekerjadvn03","pekerjadvn04","pekerjadvn05"},
+        ["Whitelist Username"] = {"workerdivine01","workerdivine02","workerdivine03","workerdivine04","workerdivine05","pekerjadvn1","pekerjadvn2","pekerjadvn3","pekerjadvn4","pekerjadvn5"},
         ["Category Fish"] = {
             "Secret",
         },
@@ -93,8 +93,8 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Minimum Rod"] = "Astral Rod",
     },
     ["Totems"] = {
-        ["Auto Use"] = false,
-        ["Minimum Rod"] = "Element Rod",
+        ["Auto Use"] = true,
+        ["Minimum Rod"] = "Ghostfinn Rod",
         ["Buy List"] = {
             ["Mutation Totem"] = 5,
         },
@@ -110,11 +110,11 @@ _G.FishItConfig = _G.FishItConfig or {
         },
     },
     ["Enchant"] = {
-        ["Auto Enchant"] = false,
-        ["Roll Enchant"] = false,
+        ["Auto Enchant"] = true,
+        ["Roll Enchant"] = true,
         ["Evolved Roll Enchant"] = false,
         ["Enchant List"] = {
-            "SECRET Hunter",
+            "Cursed I",
         },
         ["Second Enchant"] = false,
         ["Allowed Sacrifice"] = {
